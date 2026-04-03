@@ -1,5 +1,7 @@
 import pandas as pd
-import datetime import datetime
+import matplotlib.pyplot as plt
+import streamlit as st
+import datetime import datetime, timedelta
 import os
 
 
@@ -20,6 +22,10 @@ factory ={
   "train":0.04
 }
 ELECTRICITY_CO2=0.82
+
+   #file path
+BASE_DIR=os.path.darname(os.path.abspath(__file__))
+FILE_PATH =os.path.join(BASE_DIR,("")
 
 
 
